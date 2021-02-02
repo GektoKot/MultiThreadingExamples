@@ -35,7 +35,7 @@ class Caller {
     }
 }
 
-public class Synchronized {
+class Synchronized {
     public static void main(String[] args) {
         Caller caller = new Caller();
         TestThread tt1 = new TestThread("Uasya", caller);
